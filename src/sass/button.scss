@@ -1,0 +1,44 @@
+.button {
+  width: 100%;
+  max-width: 148px;
+  margin: 0;
+  padding: 10px 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  background: transparent;
+  border-radius: 4px;
+  outline: none;
+
+  &--add {
+    border: 1px solid #39b54a;
+
+    &:active {
+      color: #ffffff;
+
+      background-color: #39b54a;
+    }
+  }
+
+  &--delete {
+    border: 1px solid #ff0000;
+
+    &:active {
+      color: #ffffff;
+
+      background-color: #ff0000;
+    }
+  }
+
+  &--back {
+    border: 1px solid #0071bc;
+
+    &:active {
+      color: #ffffff;
+
+      background-color: #0071bc;
+    }
+  }
+}
